@@ -1,0 +1,55 @@
+{
+    "context": {
+        "data_plan": {
+            "plan_id": "main",
+            "plan_version": "1"
+        }
+    },
+    "environment": "development",
+    "events": [
+        {
+            "data": {
+                "custom_event_type": "Transaction",
+                "event_name": "Customer Created or Updated"
+            },
+            "event_type": "custom_event"
+        }
+    ],
+    "schema_version": "2",
+    "user_attributes": {
+        "$age": 31,
+        "$firstname": "Matthew",
+        "$gender": "Male",
+        "$lastname": "Esdale",
+        "$mobile": "+447484785307",
+        "$zip": "PH2 8EE",
+        "Ancillary History": "",
+        "Date of Birth": "1991-07-02",
+        "Driver License Number": "ESDAL907021MW9CT",
+        "Individual Deceased": false,
+        "Individual Last Updated in SVOC": "2022-10-20 09:40:32.948",
+        "Individual Source": "2",
+        "Individual Status": "Lapsed Customer",
+        "Marketing By Email": true,
+        "Marketing By Phone": false,
+        "Marketing By Post": false,
+        "Marketing By SMS": true,
+        "Number of Active Bike Policies Held": 0,
+        "Number of Active Car Policies Held": 0,
+        "Number of Active Home Policies Held": 0,
+        "Number of Active Van Policies Held": 0,
+        "Number of Vehicles in Household": 6,
+        "Policy History": "Private Car",
+		"Title": "Mr",
+		"MyAccount Status": "Live",
+		"email_dob": "ezzy_202@yahoo.co.uk|1991-07-02",
+        "Guidewire Account IDs": "10024004988" 
+        
+    },
+    "user_identities": {
+        "Email": "ezzy_202@yahoo.co.uk",
+        "customer_id": 25718799  
+           
+        
+    }
+}
